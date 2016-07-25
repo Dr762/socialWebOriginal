@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.websocialservice;
+package org.abondar.uniservity.websocial.websocialservice;
 
-import chuchkhe.domain.DAO;
-import chuchkhe.entity.CustomerOrder;
-import chuchkhe.entity.Item;
-import chuchkhe.entity.Status;
+import org.abondar.uniservity.websocial.domain.DAO;
+import org.abondar.uniservity.websocial.entity.CustomerOrder;
+import org.abondar.uniservity.websocial.entity.Item;
+import org.abondar.uniservity.websocial.entity.Status;
 import com.vaadin.data.fieldgroup.FieldGroup;
 import com.vaadin.data.fieldgroup.PropertyId;
 import com.vaadin.data.util.BeanContainer;
@@ -17,6 +17,7 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

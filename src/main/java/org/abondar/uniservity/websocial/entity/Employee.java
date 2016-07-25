@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.entity;
+package org.abondar.uniservity.websocial.entity;
 
 import java.io.Serializable;
 import java.util.List;

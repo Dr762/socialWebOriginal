@@ -1,4 +1,4 @@
-package chuchkhe.websocialservice;
+package org.abondar.uniservity.websocial.websocialservice;
 
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.shared.ui.MarginInfo;

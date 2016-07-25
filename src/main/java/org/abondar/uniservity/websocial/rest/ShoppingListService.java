@@ -2,16 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.rest;
+package org.abondar.uniservity.websocial.rest;
 
-import chuchkhe.domain.DAO;
-import chuchkhe.domain.TestDataIns;
-import chuchkhe.entity.CustomerOrder;
-import chuchkhe.entity.Employee;
-import chuchkhe.entity.Item;
-import chuchkhe.entity.Person;
-import chuchkhe.entity.Status;
-import java.util.ArrayList;
+import org.abondar.uniservity.websocial.domain.DAO;
+import org.abondar.uniservity.websocial.domain.TestDataIns;
+import org.abondar.uniservity.websocial.entity.CustomerOrder;
+import org.abondar.uniservity.websocial.entity.Item;
+import org.abondar.uniservity.websocial.entity.Status;
+
 import java.util.List;
 import java.util.logging.Logger;
 import javax.ws.rs.Consumes;

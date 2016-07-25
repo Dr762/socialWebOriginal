@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.websocialservice;
+package org.abondar.uniservity.websocial.websocialservice;
 
-import chuchkhe.domain.DAO;
-import chuchkhe.entity.Customer;
+import org.abondar.uniservity.websocial.domain.DAO;
+import org.abondar.uniservity.websocial.entity.Customer;
 import com.google.gwt.user.client.WindowCloseListener;
 import com.vaadin.data.util.BeanItemContainer;
 import com.vaadin.ui.CustomComponent;
@@ -13,10 +13,10 @@ import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Table;
 import com.vaadin.ui.Window;
 import com.vaadin.ui.Window.CloseEvent;
-import chuchkhe.entity.CustomerOrder;
-import chuchkhe.entity.Item;
-import chuchkhe.entity.Status;
-import chuchkhe.entity.StatusHistory;
+import org.abondar.uniservity.websocial.entity.CustomerOrder;
+import org.abondar.uniservity.websocial.entity.Item;
+import org.abondar.uniservity.websocial.entity.Status;
+import org.abondar.uniservity.websocial.entity.StatusHistory;
 import com.vaadin.addon.jpacontainer.JPAContainer;
 import com.vaadin.addon.jpacontainer.JPAContainerFactory;
 import com.vaadin.addon.jpacontainer.util.DefaultQueryModifierDelegate;
@@ -24,8 +24,7 @@ import com.vaadin.data.Container.Filter;
 import com.vaadin.data.Property;
 import com.vaadin.data.util.filter.Compare;
 import com.vaadin.ui.UI;
-import java.util.ArrayList;
-import java.util.Collection;
+
 import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

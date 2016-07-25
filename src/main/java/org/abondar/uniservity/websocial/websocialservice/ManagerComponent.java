@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.websocialservice;
+package org.abondar.uniservity.websocial.websocialservice;
 
-import chuchkhe.domain.DAO;
-import chuchkhe.entity.Customer;
-import chuchkhe.entity.CustomerOrder;
-import chuchkhe.entity.Employee;
-import chuchkhe.entity.Item;
-import chuchkhe.entity.OrderEmployee;
-import chuchkhe.entity.Status;
-import chuchkhe.entity.StatusHistory;
+import org.abondar.uniservity.websocial.domain.DAO;
+import org.abondar.uniservity.websocial.entity.Customer;
+import org.abondar.uniservity.websocial.entity.CustomerOrder;
+import org.abondar.uniservity.websocial.entity.Employee;
+import org.abondar.uniservity.websocial.entity.Item;
+import org.abondar.uniservity.websocial.entity.OrderEmployee;
+import org.abondar.uniservity.websocial.entity.Status;
+import org.abondar.uniservity.websocial.entity.StatusHistory;
 import com.vaadin.addon.jpacontainer.JPAContainer;
 import com.vaadin.addon.jpacontainer.JPAContainerFactory;
 import com.vaadin.addon.jpacontainer.JPAContainerItem;
@@ -30,6 +30,7 @@ import com.vaadin.ui.Table;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
+
 import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

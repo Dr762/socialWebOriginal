@@ -2,12 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package chuchkhe.websocialservice;
+package org.abondar.uniservity.websocial.websocialservice;
 
-import chuchkhe.domain.DAO;
-import chuchkhe.entity.Customer;
-import chuchkhe.entity.Item;
-import chuchkhe.entity.Person;
+import org.abondar.uniservity.websocial.domain.DAO;
+import org.abondar.uniservity.websocial.entity.Customer;
+import org.abondar.uniservity.websocial.entity.Person;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.vaadin.server.Page;
 import com.vaadin.shared.ui.MarginInfo;
@@ -23,7 +22,7 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
-import java.util.ArrayList;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
